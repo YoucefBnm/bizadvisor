@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: var(--header-height);
+    padding: 0 var(--px-default-xl);
+    z-index: 999;
+
+    .header-logo {
+        img {
+            mix-blend-mode: difference;
+        }
+    }
+
+}

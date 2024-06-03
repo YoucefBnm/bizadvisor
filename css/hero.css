@@ -1,0 +1,21 @@
+.hero {
+    min-height: 110svh;
+    display: flex;
+    align-items: center;
+    padding: 0 var(--px-default-xl);
+    background-image: url('./assets/images/hero-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-light);
+    background-position: right;
+
+    .hero-content {
+        width: 75%;
+
+        p {
+            color: var(--color-light-100);
+            max-width: 62ch;
+            margin-bottom: 1rem;
+        }
+    }
+}

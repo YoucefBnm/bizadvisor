@@ -1,0 +1,47 @@
+.btn {
+    font-family: var(--font-heading);
+    font-size: 0.875rem;
+    display: inline-flex;
+    user-select: none;
+    position: relative;
+    align-items: center;
+    white-space: nowrap;
+    transition: color 0.4s ease-in-out;
+}
+
+.btn:hover [data-title] span {
+    transform: translateY(-100%);
+}
+
+.btn:hover [data-title]::after {
+    transform: translateY(0);
+}
+
+.btn-text {
+    position: relative;
+    overflow: hidden;
+    display: block;
+
+    span {
+        transition: transform 0.2s ease-in-out;
+        display: block;
+    }
+
+}
+
+.btn-text::after {
+    display: block;
+    transition: transform 0.2s ease-in-out;
+    content: attr(data-title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    pointer-events: none;
+}
+
+.btn-bg {
+    height: 3.755rem;
+    border-radius: 2.4rem;
+    padding: 0 2.4rem;
+}

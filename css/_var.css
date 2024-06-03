@@ -1,0 +1,28 @@
+:root {
+    --font-heading: 'Darker Grotesque', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+    --color-light: rgb(248, 247, 255);
+    --color-light-100: rgba(248, 247, 255, .85);
+    --color-dark: #011627;
+    --color-dark-100: #02223B;
+    --color-primary: #0E1AFB;
+    --color-secondary: #EF2D56;
+
+    --px-default-xl: 4.5rem;
+    --header-height: 5.625rem;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Roboto-Regular.ttf') format("ttf")
+}
+
+@font-face {
+    font-family: "Darker Grotesque", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    src: url('../assets/fonts/DarkerGrotesque-SemiBold.ttf') format("ttf")
+}

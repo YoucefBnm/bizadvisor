@@ -1,0 +1,52 @@
+.h {
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+.h-1 {
+    font-size: clamp(3rem, 3.5vw + 1rem, 4.5rem);
+}
+
+.h-2 {
+    font-size: clamp(2rem, 2vw + .75rem, 3.5rem);
+}
+
+.h-3 {
+    font-size: clamp(1.75rem, 1.25vw + 1.25rem, 2.75rem);
+}
+
+.bg-dark {
+    background-color: var(--color-dark);
+    color: var(--color-light)
+}
+
+.bg-dark-100 {
+    background-color: var(--color-dark-100);
+    color: var(--color-light);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.text-base {
+    font-size: 1rem;
+    font-family: var(--font-body);
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    font-family: var(--font-body);
+
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    font-family: var(--font-body);
+
+}

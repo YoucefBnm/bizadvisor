@@ -1,0 +1,29 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    overflow: hidden;
+}
+
+.accordion-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.accordion-step {
+    width: 2rem;
+    text-align: center;
+    line-height: 1;
+
+    span {
+        vertical-align: middle;
+    }
+}
+
+.accordion-body {
+    clip-path: polygon(0px 0px, 100% 0%, 100% 0px, 0px 0px);
+    padding: 1rem 2.5rem;
+}
